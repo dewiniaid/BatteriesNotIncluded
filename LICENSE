@@ -1,0 +1,58 @@
+TL;DR:
+    Derived Factorio assets are used with permission and subject to Wube's restrictions on their use.
+    Other art and sound assets are licensed CC-BY-3.0
+    Source code is licensed under MIT
+    Copyright (c) 2017 Daniel Grace
+
+
+Art assets derived from original Factorio assets are have the same usage restrictions as normal Factorio assets,
+summarized at https://forums.factorio.com/viewtopic.php?p=49122#p49122
+
+"We tolerate and even encourage people to make mods using assets from the game (tinting, combining assets, etc.).
+That is completely ok. However we don't want the assets to be used outside of "the free mods domain area" obviously."
+- slpwnd, October 29, 2014
+
+Art assets subject to the above restrictions currently consist of the following image files:
+    /graphics/source/itemicon.pdn  (if present)
+    /graphics/ebv-charging-station.png
+    /graphics/ebv-charging-station-charge-animation.png
+    /graphics/ebv-charging-station-discharge-animation.png
+    /graphics/ebv-rapid-charging-station.png
+    /graphics/ebv-rapid-charging-station-charge-animation.png
+    /graphics/ebv-rapid-charging-station-discharge-animation.png
+    /graphics/icons/ebv-rapid-charging-station.png
+    /graphics/icons/ebv-charging-station.png
+    /graphics/icons/ebv-electric-locomotive.png
+    /graphics/icons/ebv-rapid-charging-station.png
+
+
+All other art and sound assets are all licensed under the terms of the Creative Commons Attribution 3.0 Unported
+(CC BY 3.0) license, the full text of which can be found at https://creativecommons.org/licenses/by/3.0/
+
+/sounds/ebv-electric-locomotive.ogg is a derivative work of "Electric Motor Drone 03", created by Uminari and subject
+to the above license.  The original can be located at https://freesound.org/people/Uminari/sounds/388347/
+
+
+Source code within this project is licensed under the MIT License:
+
+MIT License
+
+Copyright (c) 2017 Daniel Grace
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

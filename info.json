@@ -1,0 +1,11 @@
+{
+    "name": "BatteriesNotIncluded",
+    "version": "0.1.0",
+    "title": "Batteries Not Included",
+    "author": "Dewin",
+    "contact": "https://github.com/dewiniaid/BatteriesNotIncluded",
+    "homepage": "https://github.com/dewiniaid/BatteriesNotIncluded",
+    "factorio_version": "0.15",
+    "dependencies": ["base >= 0.15", "? QuickItemSwap"],
+    "description": "Run electric trains using battery packs that can be removed and recharged.",
+}
