@@ -16,6 +16,7 @@ local make_battery_pack = function(args)
         type = "item",
         name = prefixed .. "-empty",
         icon = config.BASEDIR .. "/graphics/icons/" .. name .. "-empty.png",
+        icon_size = 32,
         flags = { "goes-to-main-inventory" },
         subgroup = "intermediate-product",
         order = "j[battery]-a[" .. name .. "-empty]",
@@ -26,6 +27,7 @@ local make_battery_pack = function(args)
         type = "item",
         name = prefixed,
         icon = config.BASEDIR .. "/graphics/icons/" .. name .. ".png",
+        icon_size = 32,
         flags = { "goes-to-main-inventory" },
         fuel_category = "stored-electricity",
         subgroup = "intermediate-product",
@@ -49,6 +51,7 @@ local make_battery_pack = function(args)
         ingredients = { { empty.name, 1 } },
         result = full.name,
         category = "electric-charging",
+        icon_size = 32,
     }
 
     return empty, full, recharge
@@ -76,6 +79,7 @@ data:extend{
             { "plastic-bar", 2 },
             { "advanced-circuit", 2 },
         },
+        icon_size = 32,
     }
 }
 
@@ -100,5 +104,6 @@ data:extend{
             { "processing-unit", 5 },
             { "advanced-circuit", 5 },
         },
+        icon_size = 32,
     }
 }

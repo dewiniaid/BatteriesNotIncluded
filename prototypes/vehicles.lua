@@ -25,15 +25,18 @@ data:extend({
         type = "item-with-entity-data",
         name = locomotive.name,
         icon = config.BASEDIR .. "/graphics/icons/electric-locomotive.png",
+        icon_size = 32,
         flags = {"goes-to-quickbar"},
         subgroup = "transport",
         order = "a[train-system]-f[electric-locomotive]",
         place_result = config.PREFIX .. "electric-locomotive",
-        stack_size = 5
+        stack_size = 5,
     },
 
     {
         type = "recipe",
+        icon = config.BASEDIR .. "/graphics/icons/electric-locomotive.png",
+        icon_size = 32,
         name = locomotive.name,
         energy = 10,
         ingredients = {

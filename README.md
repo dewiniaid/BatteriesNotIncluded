@@ -61,5 +61,11 @@ already been reported, and report it if not.
 
 ## Changelog
 
+### 0.1.1 (2017-12-13)
+* Update for Factorio 0.16
+* Temporarily remove support for QuickItemSwap to work around
+  [a bug in the current Factorio experimental](https://forums.factorio.com/viewtopic.php?f=182&t=54567&p=321491).  To 
+  counteract this, support is now provided in QuickItemSwap itself. 
+
 ### 0.1.0 (2017-12-11)
 * First release.

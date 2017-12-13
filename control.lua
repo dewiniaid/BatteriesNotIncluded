@@ -1,3 +1,5 @@
+do return end
+
 config = require "config"
 
 local function qis_register_events()
@@ -14,7 +16,7 @@ local function qis_apply_patch()
         return
     end
 
-    return remote.call("QuickItemSwap", "apply_patch", {
+    return remote.call("QuickItemSwap", "apply_patch", "BatteriesNotIncluded", {
         categories = {
             trains = {
                 groups = {
@@ -26,7 +28,7 @@ local function qis_apply_patch()
                     }
                 }
             }
-        }
+        },
     })
 end
 

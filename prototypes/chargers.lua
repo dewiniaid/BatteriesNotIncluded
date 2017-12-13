@@ -16,6 +16,7 @@ local function make_charging_station(args)
         type = "furnace",
         name = prefixed,
         icon = config.BASEDIR .. "/graphics/icons/" .. name .. ".png",
+        icon_size = 32,
         flags = { "placeable-neutral", "placeable-player", "player-creation" },
         minable = { mining_time = 1, result = prefixed },
         max_health = 150,
@@ -92,7 +93,8 @@ local function make_charging_station(args)
         subgroup = "production-machine",
         order = "x[" .. name .. "]",
         place_result = entity.name,
-        stack_size = 50
+        stack_size = 50,
+        icon_size = 32,
     }
 
     local recipe = {
@@ -104,6 +106,7 @@ local function make_charging_station(args)
         energy = energy,
         result = entity.name,
         category = "crafting",
+        icon_size = 32,
         --        category = "advanced-crafting",
     }
 
