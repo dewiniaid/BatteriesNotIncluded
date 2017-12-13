@@ -9,4 +9,3 @@
     "dependencies": ["base >= 0.16", "? QuickItemSwap"],
     "description": "Run electric trains using battery packs that can be removed and recharged."
 }
-re
