@@ -46,5 +46,6 @@ data:extend({
             { "accumulator", 1 },
         },
         result = locomotive.name,
+        enabled = false,
     },
 })

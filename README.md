@@ -61,6 +61,13 @@ already been reported, and report it if not.
 
 ## Changelog
 
+### 0.1.2 (2017-12-14)
+* Fixed the Electric Locomotive being available without research.  (It's useless without the research for battery packs anyways).
+* Fixed Heavy Duty Battery Packs to require Electric Energy Distribution 1 instead of Electric Energy Distribution 2.  It no longer is a green science recipe depending on a blue science recipe.
+* Renamed "Heavy Duty Battery Packs" technology to "Battery Packs".  Heavy-Duty Battery Packs may appear in another incarnation in the future.
+* Removed research dependency on batteries, since it is implied by also depending on Accumulators.
+* Support Factorio 0.16 native changelog features.
+
 ### 0.1.1 (2017-12-13)
 * Update for Factorio 0.16
 * Temporarily remove support for QuickItemSwap to work around [a bug in the current Factorio experimental](https://forums.factorio.com/viewtopic.php?f=182&t=54567&p=321491).  To counteract this, support is now provided in QuickItemSwap itself. 
