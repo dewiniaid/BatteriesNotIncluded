@@ -61,6 +61,10 @@ already been reported, and report it if not.
 
 ## Changelog
 
+### 0.1.3 (2017-12-23)
+* Rapid Charging Station rebalanced: Now requires 15 advanced processing units (reduced from 20), has 250% speed (increased from 200), and 80% efficiency (reduced from 100%).
+* Charging stations no longer produce drain.
+
 ### 0.1.2 (2017-12-14)
 * Fixed the Electric Locomotive being available without research.  (It's useless without the research for battery packs anyways).
 * Fixed Heavy Duty Battery Packs to require Electric Energy Distribution 1 instead of Electric Energy Distribution 2.  It no longer is a green science recipe depending on a blue science recipe.
@@ -74,3 +78,4 @@ already been reported, and report it if not.
 
 ### 0.1.0 (2017-12-11)
 * First release.
+

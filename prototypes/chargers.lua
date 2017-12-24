@@ -7,10 +7,13 @@ local function make_charging_station(args)
     local efficiency = args.efficiency or 1.0
     local energy_usage = args.energy_usage or (((config.BASE_CHARGING_KW * crafting_speed) / efficiency) .. "kW")
     local ingredients = args.ingredients
+    local drain = args.drain
+
     args.speed = nil
     args.efficiency = nil
     args.energy_usage = nil
     args.ingredients = nil
+    args.drain = nil
 
     local entity = {
         type = "furnace",
@@ -39,6 +42,7 @@ local function make_charging_station(args)
         energy_source = {
             type = "electric",
             usage_priority = "secondary-input",
+            drain = drain,
             -- emissions = 0.005   -- FIXME: What should this be?
         },
         vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -85,6 +89,11 @@ local function make_charging_station(args)
         }
     }
 
+    for k, v in pairs(args) do
+        entity.k = v
+    end
+
+
     local item = {
         type = "item",
         name = entity.name,
@@ -116,6 +125,7 @@ end
 
 data:extend(make_charging_station {
     name = "charging-station",
+    drain = "0kW",
     ingredients = {
         { "accumulator", 1 },
         { "copper-cable", 30 },
@@ -127,10 +137,12 @@ data:extend(make_charging_station {
 
 data:extend(make_charging_station {
     name = "rapid-charging-station",
-    crafting_speed = 2,
+    drain = "0kW",
+    crafting_speed = 2.5,
+    efficiency = 0.8,
     ingredients = {
         { config.PREFIX .. "charging-station", 1 },
         { "advanced-circuit", 20, },
-        { "processing-unit", 20 },
+        { "processing-unit", 15 },
     }
 })
