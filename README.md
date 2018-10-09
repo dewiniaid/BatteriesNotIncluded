@@ -61,6 +61,13 @@ already been reported, and report it if not.
 
 ## Changelog
 
+## 0.1.4 (2018-10-08)
+* Added German translations.  Thanks to MrBesen and SuperSandro2000 for contributing.
+* Partially-depleted batteries are no longer completely lost when mining a vehicle and are returned in the form of
+  a fully-depleted battery instead.
+* Increased amount of cables, circuits and advanced circuits required for making charging stations.
+* Support QuickItemSwap natively. (QIS already supports Batteries Not Included, so this change should be invisible.)
+
 ### 0.1.3 (2017-12-23)
 * Rapid Charging Station rebalanced: Now requires 15 advanced processing units (reduced from 20), has 250% speed (increased from 200), and 80% efficiency (reduced from 100%).
 * Charging stations no longer produce drain.
