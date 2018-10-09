@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 08. 10. 2018
+  Changes:
+    - Added German translations.  Thanks to MrBesen and SuperSandro2000 for contributing.
+    - Partially-depleted batteries are no longer completely lost when mining a vehicle and are returned in the form of
+      a fully-depleted battery instead.
+    - Increased amount of cables, circuits and advanced circuits required for making charging stations.
+
+---------------------------------------------------------------------------------------------------
 Version: 0.1.3
 Date: 14. 23. 2017
   Changes:
