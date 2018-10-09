@@ -14,7 +14,7 @@ local function qis_apply_patch()
         return
     end
 
-    return remote.call("QuickItemSwap", "apply_patch", "BatteriesNotIncluded", {
+    return remote.call("QuickItemSwap", "apply_patch", {
         categories = {
             trains = {
                 groups = {
@@ -27,16 +27,16 @@ local function qis_apply_patch()
                 }
             }
         },
-    })
+    }, "BatteriesNotIncluded")
 end
 
 local function on_init()
---    qis_register_events()
---    qis_apply_patch()
+    qis_register_events()
+    qis_apply_patch()
 end
 
 local function on_load()
---    qis_register_events()
+    qis_register_events()
 end
 
 script.on_init(on_init)
@@ -69,9 +69,5 @@ end
 
 
 
-
 script.on_event(defines.events.on_player_mined_entity, recover_battery)
 script.on_event(defines.events.on_robot_mined_entity, recover_battery)
---script.on_event(defines.events.on_pre_player_mined_item, pre_recover_battery)
---script.on_event(defines.events.on_robot_pre_mined, pre_recover_battery)
--- game.print("Done with control.lua")

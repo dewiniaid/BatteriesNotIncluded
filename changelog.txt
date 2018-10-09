@@ -6,6 +6,7 @@ Date: 08. 10. 2018
     - Partially-depleted batteries are no longer completely lost when mining a vehicle and are returned in the form of
       a fully-depleted battery instead.
     - Increased amount of cables, circuits and advanced circuits required for making charging stations.
+    - Support QuickItemSwap natively. (QIS already supports Batteries Not Included, so this change should be invisible.)
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.3
