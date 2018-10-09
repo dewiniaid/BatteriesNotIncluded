@@ -128,9 +128,9 @@ data:extend(make_charging_station {
     drain = "0kW",
     ingredients = {
         { "accumulator", 1 },
-        { "copper-cable", 30 },
-        { "electronic-circuit", 10 },
-        { "advanced-circuit", 5 }
+        { "copper-cable", 50 },
+        { "electronic-circuit", 20 },
+        { "advanced-circuit", 10 }
     }
 })
 

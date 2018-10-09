@@ -1,7 +1,7 @@
 --local config = require "config"
 local make_battery_pack = function(args)
-    -- Time for charging is assuming a base charging station (speed=1) of 500 kw
-    -- So, 30 MJ / 500 kW = 60 seconds.
+        -- Time for charging is assuming a base charging station (speed=1) of 500 kw
+        -- So, 30 MJ / 500 kW = 60 seconds.
 
     local name = args.name
     local prefixed = config.PREFIX .. name
