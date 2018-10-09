@@ -61,7 +61,7 @@ already been reported, and report it if not.
 
 ## Changelog
 
-## 0.1.4 (2018-10-08)
+### 0.1.4 (2018-10-08)
 * Added German translations.  Thanks to MrBesen and SuperSandro2000 for contributing.
 * Partially-depleted batteries are no longer completely lost when mining a vehicle and are returned in the form of
   a fully-depleted battery instead.
