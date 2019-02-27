@@ -98,7 +98,6 @@ local function make_charging_station(args)
         type = "item",
         name = entity.name,
         icon = entity.icon,
-        flags = { "goes-to-quickbar" },
         subgroup = "production-machine",
         order = "x[" .. name .. "]",
         place_result = entity.name,

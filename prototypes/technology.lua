@@ -1,7 +1,7 @@
 --local config = require "config"
 
-local green_science = { { "science-pack-1", 1 }, { "science-pack-2", 1 }, }
-local blue_science = { { "science-pack-1", 1 }, { "science-pack-2", 1 }, { "science-pack-3", 1 }, }
+local green_science = { { "automation-science-pack", 1 }, { "logistic-science-pack", 1 }, }
+local blue_science = { { "automation-science-pack", 1 }, { "logistic-science-pack", 1 }, { "utility-science-pack", 1 }}
 
 data:extend({
     {
