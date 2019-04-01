@@ -14,7 +14,7 @@ data:extend({
             { type = "unlock-recipe", recipe = config.PREFIX .. "battery-pack-recharge", },
             { type = "unlock-recipe", recipe = config.PREFIX .. "charging-station", },
         },
-        prerequisites = { "electric-energy-accumulators-1", "advanced-electronics", "electric-energy-distribution-1" },
+        prerequisites = { "electric-energy-accumulators", "advanced-electronics", "electric-energy-distribution-1" },
         unit = {
             count = 200,
             ingredients = green_science,
