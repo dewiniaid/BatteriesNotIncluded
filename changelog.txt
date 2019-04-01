@@ -1,4 +1,17 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 31. 03. 2019
+  Bugfixes:
+    - Update research requirements for changes made in Factorio 0.17.23
+    - Fix crash when adding Batteries Not Included to an existing save that had QuickItemSwap enabled.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 26. 02. 2019
+  Changes:
+    - Update for Factorio 0.17
+
+---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 08. 10. 2018
   Changes:

@@ -30,18 +30,18 @@ local function qis_apply_patch()
     }, "BatteriesNotIncluded")
 end
 
-local function on_init()
-    qis_register_events()
-    qis_apply_patch()
-end
+--local function on_init()
+--    qis_register_events()
+--    qis_apply_patch()
+--end
+--
+--local function on_load()
+--    qis_register_events()
+--end
 
-local function on_load()
-    qis_register_events()
-end
-
-script.on_init(on_init)
-script.on_configuration_changed(on_init)
-script.on_load(on_load)
+script.on_init(qis_register_events)
+script.on_load(qis_register_events)
+--script.on_configuration_changed(qis_apply_patch)
 
 -- Register events.
 local function has_recoverable_battery(entity)

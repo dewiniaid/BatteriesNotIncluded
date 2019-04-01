@@ -61,6 +61,10 @@ already been reported, and report it if not.
 
 ## Changelog
 
+### 0.2.1 (2019-03-31)
+* Update research requirements for changes made in Factorio 0.17.23
+* Fix crash when adding Batteries Not Included to an existing save that had QuickItemSwap enabled.
+
 ### 0.2.0 (2019-02-26)
 * Updated for Factorio 0.17
 
