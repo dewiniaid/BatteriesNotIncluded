@@ -61,6 +61,9 @@ already been reported, and report it if not.
 
 ## Changelog
 
+### 0.2.2 (2020-02-01)
+* **Update for Factorio 0.18**
+
 ### 0.2.1 (2019-03-31)
 * Update research requirements for changes made in Factorio 0.17.23
 * Fix crash when adding Batteries Not Included to an existing save that had QuickItemSwap enabled.
@@ -93,3 +96,28 @@ already been reported, and report it if not.
 ### 0.1.0 (2017-12-11)
 * First release.
 
+
+
+
+
+Blueprint Extensions 0.4.0 released, with new auto-landfill features
+
+I don't normally toot my own horn as a mod author here, but every now and then I feel like I should share something.  So, without further ado:
+
+It's no joke, I've just released version 0.4.0 of Blueprint Extensions for Factorio 0.17.23+.  **The main new feature in this version is the ability to automatically add landfill to blueprints**, along with some revamped GUI functionality.
+
+For those new to the mod, Blueprint Extensions has a number of other useful quality-of-life tools related to blueprints:
+
+ * **Mirror**: Mirror most blueprints.  (Rails may not mirror cleanly).  This correctly adjusts splitter priorities.  If [Gah!DarnItWater!](https://mods.factorio.com/mod/GDIW) is installed, refinery and chemical plant recipes will be mirrored as well.
+ 
+ * **Snap**: Snap a blueprint so a specific corner or edge of it is under your mouse rather than the middle.  Handy for lining up those large nuclear power plants and tileable solar blueprints you might have.
+ 
+ * **Update**: Quickly create a brand new blueprint using the same name and icons as an existing one, optionally with an auto-incrementing version number.
+ 
+ * **Wireswap**: Swap between red and green wires in your blueprint.
+ 
+ * **Rotate**: Rotate an actual blueprint (rather than just your hand).  Useful if you have a family of related blueprints and want them all facing the same direction in the library.
+ 
+You can find the new version of Blueprint Extensions [on the mod portal](https://mods.factorio.com/mod/BlueprintExtensions), or in game as usual.
+
+Also feel free to check out [Rail Tools](https://mods.factorio.com/mod/RailTools) for rail signal placement and error checking, [GhostBuster](https://mods.factorio.com/mod/GhostBuster) to prevent mods from tearing up belts only to put the same belt back down, or [the rest of my quality-of-life mods](https://mods.factorio.com/user/dewiniaid).
